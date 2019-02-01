@@ -1,6 +1,12 @@
 # aws_signin
 A disgusting script that lets you signin to the AWS console using your keys from the command line.
 
+## Dependencies
+
+You must have boto3 and requests libraries available for python to load
+
+    pip install boto3 requests
+
 ## How to use it
 
 Load your AWS keys as environment variables, then run
